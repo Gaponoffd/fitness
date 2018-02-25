@@ -1,0 +1,136 @@
+
+.header{
+    background: #131415;
+}
+
+.header__left, .header__center, .header__right{
+    float: left;
+    height: 75px;
+    width: calc(100%/3);
+    position: relative;
+}
+
+.header__logo{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 20px;
+}
+
+.nav{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.nav__elem{
+    display: inline-block;
+    padding-right: 25px;
+    padding-right: 12px;
+    margin-left: 30px;
+    margin-bottom: 4px;
+}
+
+.nav__elem:last-child{
+    padding-right: 0
+}
+
+.nav__link{
+    font-weight: bold;
+    font-size: 12px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    transition: .3s;
+    padding: 10px 0;
+}
+
+.nav__link:hover, .nav__link_activ{
+    color: #f89513
+}
+
+.header__right{
+    text-align: right;
+}
+
+.contacts{
+    margin-right: 12px;
+    margin-top: 15px;
+}
+
+.phone{
+    font-weight: bold;
+    font-size: 21px;
+    color: #ffffff;
+    letter-spacing: 1px
+}
+
+.contacts__work-link{
+    font-weight: bold;
+    font-size: 14px;
+    color: #f89513;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: .3s;
+    display: inline-block;
+}
+
+.contacts__work-link:hover{
+    color: #b9b9b9
+}
+
+.contacts__menu{
+    width: 160px; 
+    height: 70px;
+    background: #ffff;
+    position: relative;
+    margin-top: 17px;
+    margin-left: 190px;
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    text-align: left;
+    left: -99999px;
+}
+
+.contacts__menu::before{
+    content: "";
+    display: block;
+    position: absolute;
+    height: 25px;
+    left: 0;
+    right: 0;
+    top: -20px;
+}
+
+.contacts__work-time:hover .contacts__menu{
+    left: 0;
+}
+
+.triangle{
+    width: 20px;
+    height: 20px;
+    background: #ffffff;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 100%;
+    margin-left: -25px;
+    margin-top: -10px;
+}
+
+.contacts__menu-time{
+    padding: 10px 10px 3px 10px;;
+    font-weight: bold;
+    font-size: 14px;
+    color: #f89513;
+}
+
+.contacts__menu-lunch{
+    padding: 0 10px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #221f1f;
+}
+
+

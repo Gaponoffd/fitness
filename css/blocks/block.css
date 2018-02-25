@@ -1,0 +1,22 @@
+
+.block-info{
+    margin-top: 60px;
+    background: url('../../img/rectangle.jpg') repeat;
+    text-align: center;
+}
+
+.block-info__text{
+   display: inline-block; 
+    width: 640px;
+    text-align: left;
+    padding: 30px 0;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 1.67;
+}
+
+.block-info__text-color{
+    font-weight: 700;
+    color: #f89513
+}

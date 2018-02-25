@@ -1,0 +1,28 @@
+
+.title_logo-partners{
+    margin-left: -480px;
+}
+
+.logo-partners{
+    width: 880px;
+    margin-left: 50px
+}
+
+.logo-partners__list{
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 20px
+}
+
+.logo-partners__link{
+    display: inline-block;
+    filter: grayscale(100%);
+    padding: 20px;
+    transition: .5s
+}
+
+.logo-partners__link:hover{
+    filter: none
+}
